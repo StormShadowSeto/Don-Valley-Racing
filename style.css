@@ -1,0 +1,37 @@
+/* Leaderboard styles */
+aside table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  aside th, aside td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  aside th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  aside td {
+    background-color: #fff;
+  }
+  
+  aside tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Add borders around columns */
+  aside th:first-child,
+  aside td:first-child {
+    border-left: none;
+  }
+  
+  aside th:last-child,
+  aside td:last-child {
+    border-right: none;
+  }
+  
